@@ -4,9 +4,9 @@
 
 ## 截图索引
 
-- [1. 连接钱包前的游戏入口](#screenshot-1)
-- [2. 测试钱包与测试 MON](#screenshot-2)
-- [3. World Passport 身份卡](#screenshot-3)
+- [1. World Passport 身份卡](#screenshot-1)
+- [2. 连接钱包前的游戏入口](#screenshot-2)
+- [3. 测试钱包与测试 MON](#screenshot-3)
 - [4. Forest：Pixel Farm 种植场景](#screenshot-4)
 - [5. Forge：购买与解锁入口](#screenshot-5)
 - [6. Forge：Pixel Arena 战斗场景](#screenshot-6)
@@ -14,7 +14,17 @@
 
 <a id="screenshot-1"></a>
 
-## 1. 连接钱包前的游戏入口
+## 1. World Passport 身份卡
+
+统一入口展示 World Passport 与领取状态，作为两个模块共同识别的玩家身份。
+
+![World Passport 身份卡](screenshots/worldpassport_claim.png)
+
+[查看原图](screenshots/worldpassport_claim.png)
+
+<a id="screenshot-2"></a>
+
+## 2. 连接钱包前的游戏入口
 
 未连接钱包时，模块显示连接提示。
 
@@ -22,25 +32,15 @@
 
 [查看原图](screenshots/game_ui_before_wallet_connection.png)
 
-<a id="screenshot-2"></a>
+<a id="screenshot-3"></a>
 
-## 2. 测试钱包与测试 MON
+## 3. 测试钱包与测试 MON
 
 钱包中的测试 MON 用于支付测试网交易 Gas 和模块购买费用。
 
 ![测试钱包与测试 MON](screenshots/get_mon_to_wallet.png)
 
 [查看原图](screenshots/get_mon_to_wallet.png)
-
-<a id="screenshot-3"></a>
-
-## 3. World Passport 身份卡
-
-统一入口展示 World Passport 与领取状态，作为两个模块共同识别的玩家身份。
-
-![World Passport 身份卡](screenshots/worldpassport_claim.png)
-
-[查看原图](screenshots/worldpassport_claim.png)
 
 <a id="screenshot-4"></a>
 
