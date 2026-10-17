@@ -1,69 +1,83 @@
-# OpenRealm 路演截图
+# OpenRealm 产品截图
 
-本页汇集 `.ppt-build/` 中的 7 张路演幻灯片截图，方便评委浏览项目介绍。截图为路演材料；实际功能与资金流请结合 [在线 Demo](https://openrealm-hackathon-demo.rainylark2.chatgpt.site/) 和 [README 中的链上交易证明](README.md#可核验的测试网部署) 核验。
+本页收录 `screenshots/` 中的实际产品截图，按玩家体验流程排列。结合 [在线 Demo](https://openrealm-hackathon-demo.rainylark2.chatgpt.site/) 和 [README 中的合约与交易证明](README.md#可核验的测试网部署)，可核验共享身份、模块解锁和收益结算。截图是特定时刻的页面记录，当前权限与余额以链上状态为准。
 
-## 页面索引
+## 截图索引
 
-- [第 1 页：OpenRealm：一个世界，无数创作者](#slide-1)
-- [第 2 页：独立创作者，不必独自造一个世界](#slide-2)
-- [第 3 页：OpenRealm 的三个核心机制](#slide-3)
-- [第 4 页：Aetheria：共享世界的第一步](#slide-4)
-- [第 5 页：每次购买，都支持创作者与世界](#slide-5)
-- [第 6 页：为什么选择 Monad](#slide-6)
-- [第 7 页：每个人创造世界的一部分](#slide-7)
+- [1. 连接钱包前的游戏入口](#screenshot-1)
+- [2. 测试钱包与测试 MON](#screenshot-2)
+- [3. World Passport 身份卡](#screenshot-3)
+- [4. Forest：Pixel Farm 种植场景](#screenshot-4)
+- [5. Forge：购买与解锁入口](#screenshot-5)
+- [6. Forge：Pixel Arena 战斗场景](#screenshot-6)
+- [7. 收益面板与提现交易](#screenshot-7)
 
-<a id="slide-1"></a>
+<a id="screenshot-1"></a>
 
-## 第 1 页：OpenRealm：一个世界，无数创作者
+## 1. 连接钱包前的游戏入口
 
-![第 1 页：OpenRealm：一个世界，无数创作者](.ppt-build/slide-1.png)
+未连接钱包时，模块显示连接提示。
 
-[查看原图](.ppt-build/slide-1.png)
+![连接钱包前的游戏入口](screenshots/game_ui_before_wallet_connection.png)
 
-<a id="slide-2"></a>
+[查看原图](screenshots/game_ui_before_wallet_connection.png)
 
-## 第 2 页：独立创作者，不必独自造一个世界
+<a id="screenshot-2"></a>
 
-![第 2 页：独立创作者，不必独自造一个世界](.ppt-build/slide-2.png)
+## 2. 测试钱包与测试 MON
 
-[查看原图](.ppt-build/slide-2.png)
+钱包中的测试 MON 用于支付测试网交易 Gas 和模块购买费用。
 
-<a id="slide-3"></a>
+![测试钱包与测试 MON](screenshots/get_mon_to_wallet.png)
 
-## 第 3 页：OpenRealm 的三个核心机制
+[查看原图](screenshots/get_mon_to_wallet.png)
 
-![第 3 页：OpenRealm 的三个核心机制](.ppt-build/slide-3.png)
+<a id="screenshot-3"></a>
 
-[查看原图](.ppt-build/slide-3.png)
+## 3. World Passport 身份卡
 
-<a id="slide-4"></a>
+统一入口展示 World Passport 与领取状态，作为两个模块共同识别的玩家身份。
 
-## 第 4 页：Aetheria：共享世界的第一步
+![World Passport 身份卡](screenshots/worldpassport_claim.png)
 
-![第 4 页：Aetheria：共享世界的第一步](.ppt-build/slide-4.png)
+[查看原图](screenshots/worldpassport_claim.png)
 
-[查看原图](.ppt-build/slide-4.png)
+<a id="screenshot-4"></a>
 
-<a id="slide-5"></a>
+## 4. Forest：Pixel Farm 种植场景
 
-## 第 5 页：每次购买，都支持创作者与世界
+进入农场后，玩家可以选择地块、种植和浇水。
 
-![第 5 页：每次购买，都支持创作者与世界](.ppt-build/slide-5.png)
+![Forest：Pixel Farm 种植场景](screenshots/game_begin_after_wallet_connection.png)
 
-[查看原图](.ppt-build/slide-5.png)
+[查看原图](screenshots/game_begin_after_wallet_connection.png)
 
-<a id="slide-6"></a>
+<a id="screenshot-5"></a>
 
-## 第 6 页：为什么选择 Monad
+## 5. Forge：购买与解锁入口
 
-![第 6 页：为什么选择 Monad](.ppt-build/slide-6.png)
+竞技场在购买前显示解锁入口；购买交易需由玩家钱包确认。
 
-[查看原图](.ppt-build/slide-6.png)
+![Forge：购买与解锁入口](screenshots/buy_unlock.png)
 
-<a id="slide-7"></a>
+[查看原图](screenshots/buy_unlock.png)
 
-## 第 7 页：每个人创造世界的一部分
+<a id="screenshot-6"></a>
 
-![第 7 页：每个人创造世界的一部分](.ppt-build/slide-7.png)
+## 6. Forge：Pixel Arena 战斗场景
 
-[查看原图](.ppt-build/slide-7.png)
+解锁后的竞技场提供普通攻击和技能等战斗操作。
+
+![Forge：Pixel Arena 战斗场景](screenshots/Forge_game.png)
+
+[查看原图](screenshots/Forge_game.png)
+
+<a id="screenshot-7"></a>
+
+## 7. 收益面板与提现交易
+
+展示待提现收益及钱包中的交易记录。此截图不能单独证明提现完成，请结合 README 的提现交易链接核验。
+
+![收益面板与提现交易](screenshots/get_my_profits.png)
+
+[查看原图](screenshots/get_my_profits.png)
