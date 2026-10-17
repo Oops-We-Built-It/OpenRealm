@@ -1,0 +1,26 @@
+import { afterEach, expect, it, vi } from 'vitest';
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+import App from './App';
+afterEach(() => { cleanup(); window.location.hash = ''; });
+it('玩家完成连接、领取、跨模块共享身份、解锁、收益展示和重置', async () => {
+  vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
+  render(<App/>);
+  expect(screen.getByText(/所有身份、权限和收益均为本地模拟/)).toBeTruthy();
+  fireEvent.click(screen.getByRole('button', { name: /连接演示账户/ }));
+  await waitFor(() => expect((screen.getByRole('button', { name: /领取 World Passport/ }) as HTMLButtonElement).disabled).toBe(false));
+  fireEvent.click(screen.getByRole('button', { name: /领取 World Passport/ }));
+  await screen.findByRole('button', { name: /已持有 Passport/ });
+  fireEvent.click(screen.getByRole('button', { name: '打开 Mystic Forest' }));
+  await screen.findByText('共享 Passport 已识别，森林入口已开放。');
+  window.location.hash = 'world';
+  await screen.findByRole('button', { name: '打开 Arcane Forge' });
+  fireEvent.click(screen.getByRole('button', { name: '打开 Arcane Forge' }));
+  const buy = await screen.findByRole('button', { name: '购买并解锁' }); fireEvent.click(buy); fireEvent.click(buy);
+  await screen.findByText('共享身份与购买权限已确认，工坊入口已开放。');
+  window.location.hash = 'world';
+  await screen.findByText('0.0008'); await screen.findByText('0.0002');
+  expect((screen.getByRole('button', { name: /提取我的收益/ }) as HTMLButtonElement).disabled).toBe(true);
+  fireEvent.click(screen.getByRole('button', { name: /重置演示/ }));
+  await screen.findByRole('button', { name: /连接演示账户/ });
+  expect(screen.queryByText('0.0008')).toBeNull();
+});

@@ -1,0 +1,9 @@
+{
+  "chainId": 10143,
+  "worldId": 1,
+  "contractAddress": null,
+  "deploymentTransactionHash": null,
+  "treasuryAddress": null,
+  "moduleIds": [1, 2],
+  "verificationStatus": "awaiting-member-b"
+}
