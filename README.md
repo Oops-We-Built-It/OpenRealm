@@ -1,4 +1,4 @@
-# OpenRealm · Aetheria
+# OpenRealm · Aetheriay游戏世界
 
 **One World. Many Creators. Shared Ownership.**
 
