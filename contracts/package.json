@@ -1,0 +1,1 @@
+{"name":"openrealm-contracts","private":true,"type":"module","scripts":{"build":"node compile.mjs","test":"node --test test/protocol.test.mjs"},"dependencies":{"@openzeppelin/contracts":"5.4.0"},"devDependencies":{"solc":"0.8.24","ganache":"7.9.2","ethers":"6.15.0"}}
