@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OpenRealm
 
 One World. Many Creators. Shared Ownership.
@@ -62,6 +61,3 @@ VITE_ 环境变量公开打包到浏览器，不要放密钥。仅测试网，�
 Vercel 构建配置已提供，尚未发布公网、录制视频或执行真实链上交易。没有提供 B 的地址、C 的成品模块及部署账户，不能把这些交付项标为完成。
 
 网络配置参考 [Monad 官方文档](https://docs.monad.xyz/developer-essentials/network-information)、钱包适配参考 [viem Wallet Client](https://viem.sh/docs/clients/wallet)。
-=======
-# OpenRealm
->>>>>>> origin/main
