@@ -1,9 +1,27 @@
 {
   "chainId": 10143,
   "worldId": 1,
-  "contractAddress": null,
-  "deploymentTransactionHash": null,
-  "treasuryAddress": null,
-  "moduleIds": [1, 2],
-  "verificationStatus": "awaiting-member-b"
+  "contractAddress": "0x20730B85B1F18c6d12d23b4CD413d4FfA5b3305a",
+  "deploymentTransactionHash": "0x24d643a0a966d0e1a3408c96e421715825ebda2fe631421abc7aefabf7c267c6",
+  "treasuryAddress": "0xDfE5c456527C05Db345701Ef0F4457EBB1b9BcEc",
+  "moduleIds": [
+    1,
+    2
+  ],
+  "verificationStatus": "not-verified",
+  "status": "deployed-and-registered",
+  "registrationTransactions": [
+    {
+      "moduleId": 1,
+      "hash": "0x82a55b2d2ca8e99af4e335022200ad2113fe314ca968bc8b616fdf88c8244ffc",
+      "status": "confirmed"
+    },
+    {
+      "moduleId": 2,
+      "hash": "0x4e8f45fdcd94871e20357df332ec963808c93afd28e1ef13ac6aaac2e4abae9a",
+      "status": "confirmed"
+    }
+  ],
+  "liveAcceptance": "not-run",
+  "deploymentBlock": 71786519
 }
